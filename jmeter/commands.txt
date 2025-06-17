@@ -1,0 +1,6 @@
+Generate Summary for test plan
+jmeter -n -t /Users/vinukumar/Documents/projects/experiments/sequelize-load-test/jmeter/Get-sequelize-vs-raw.jmx -l /Users/vinukumar/Documents/projects/experiments/sequelize-load-test/jmeter/report/17-06-25_1130PM/results.jtl
+
+
+Generate HTML Report
+jmeter -g  /Users/vinukumar/Documents/projects/experiments/sequelize-load-test/jmeter/report/17-06-25_1130PM/results.jtl -o /Users/vinukumar/Documents/projects/experiments/sequelize-load-test/jmeter/report/17-06-25_1130PM/output

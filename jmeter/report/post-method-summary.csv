@@ -1,0 +1,5 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Sequelize - Post Trip Create,10,7,4,23,5.37,0.000%,11.03753,4.90,3.68,455.0
+Raw - Post Trip Create,10,3,1,20,5.48,0.000%,11.29944,5.02,3.70,455.0
+Debug Sampler,10,0,0,0,0.00,0.000%,11.56069,5.02,0.00,444.9
+TOTAL,30,3,0,23,5.41,0.000%,33.03965,14.57,7.27,451.6

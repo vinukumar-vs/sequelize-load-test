@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2025/06/18 00:48:38.484,43,Raw - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-1,text,true,,450,133,1,1,http://localhost:3000/api/raw/trip/151,43,0,26
+2025/06/18 00:48:38.529,10,Sequelize - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-1,text,true,,450,139,1,1,http://localhost:3000/api/sequelize/trip/151,10,0,0
+2025/06/18 00:48:38.543,3,Debug Sampler,200,OK,TG - Get Method - sequelize-vs-raw-query 1-1,text,true,,351,0,1,1,null,0,0,0
+2025/06/18 00:48:38.554,2,Raw - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-2,text,true,,450,133,1,1,http://localhost:3000/api/raw/trip/152,1,0,0
+2025/06/18 00:48:38.556,2,Sequelize - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-2,text,true,,450,139,1,1,http://localhost:3000/api/sequelize/trip/152,2,0,0
+2025/06/18 00:48:38.558,0,Debug Sampler,200,OK,TG - Get Method - sequelize-vs-raw-query 1-2,text,true,,350,0,1,1,null,0,0,0
+2025/06/18 00:48:38.752,2,Raw - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-3,text,true,,450,133,1,1,http://localhost:3000/api/raw/trip/153,2,0,1
+2025/06/18 00:48:38.755,2,Sequelize - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-3,text,true,,450,139,1,1,http://localhost:3000/api/sequelize/trip/153,2,0,0
+2025/06/18 00:48:38.757,0,Debug Sampler,200,OK,TG - Get Method - sequelize-vs-raw-query 1-3,text,true,,351,0,1,1,null,0,0,0
+2025/06/18 00:48:38.948,3,Raw - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-4,text,true,,450,133,1,1,http://localhost:3000/api/raw/trip/154,3,0,1
+2025/06/18 00:48:38.952,2,Sequelize - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-4,text,true,,450,139,1,1,http://localhost:3000/api/sequelize/trip/154,2,0,0
+2025/06/18 00:48:38.954,0,Debug Sampler,200,OK,TG - Get Method - sequelize-vs-raw-query 1-4,text,true,,351,0,1,1,null,0,0,0
+2025/06/18 00:48:39.146,3,Raw - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-5,text,true,,450,133,1,1,http://localhost:3000/api/raw/trip/155,3,0,1
+2025/06/18 00:48:39.149,2,Sequelize - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-5,text,true,,450,139,1,1,http://localhost:3000/api/sequelize/trip/155,2,0,0
+2025/06/18 00:48:39.152,0,Debug Sampler,200,OK,TG - Get Method - sequelize-vs-raw-query 1-5,text,true,,351,0,1,1,null,0,0,0
+2025/06/18 00:48:39.345,2,Raw - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-6,text,true,,450,133,1,1,http://localhost:3000/api/raw/trip/156,2,0,1
+2025/06/18 00:48:39.348,2,Sequelize - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-6,text,true,,450,139,1,1,http://localhost:3000/api/sequelize/trip/156,2,0,0
+2025/06/18 00:48:39.350,0,Debug Sampler,200,OK,TG - Get Method - sequelize-vs-raw-query 1-6,text,true,,351,0,1,1,null,0,0,0
+2025/06/18 00:48:39.544,2,Raw - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-7,text,true,,450,133,1,1,http://localhost:3000/api/raw/trip/157,2,0,1
+2025/06/18 00:48:39.547,2,Sequelize - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-7,text,true,,450,139,1,1,http://localhost:3000/api/sequelize/trip/157,2,0,0
+2025/06/18 00:48:39.549,0,Debug Sampler,200,OK,TG - Get Method - sequelize-vs-raw-query 1-7,text,true,,350,0,1,1,null,0,0,0
+2025/06/18 00:48:39.740,3,Raw - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-8,text,true,,450,133,1,1,http://localhost:3000/api/raw/trip/158,3,0,1
+2025/06/18 00:48:39.743,2,Sequelize - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-8,text,true,,450,139,1,1,http://localhost:3000/api/sequelize/trip/158,2,0,0
+2025/06/18 00:48:39.745,0,Debug Sampler,200,OK,TG - Get Method - sequelize-vs-raw-query 1-8,text,true,,351,0,1,1,null,0,0,0
+2025/06/18 00:48:39.938,2,Raw - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-9,text,true,,450,133,1,1,http://localhost:3000/api/raw/trip/159,2,0,1
+2025/06/18 00:48:39.940,3,Sequelize - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-9,text,true,,450,139,1,1,http://localhost:3000/api/sequelize/trip/159,3,0,0
+2025/06/18 00:48:39.943,1,Debug Sampler,200,OK,TG - Get Method - sequelize-vs-raw-query 1-9,text,true,,351,0,1,1,null,0,0,0
+2025/06/18 00:48:40.138,2,Raw - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-10,text,true,,450,133,1,1,http://localhost:3000/api/raw/trip/160,2,0,0
+2025/06/18 00:48:40.140,2,Sequelize - Get Trip,200,OK,TG - Get Method - sequelize-vs-raw-query 1-10,text,true,,450,139,1,1,http://localhost:3000/api/sequelize/trip/160,2,0,0
+2025/06/18 00:48:40.142,1,Debug Sampler,200,OK,TG - Get Method - sequelize-vs-raw-query 1-10,text,true,,352,0,1,1,null,0,0,0

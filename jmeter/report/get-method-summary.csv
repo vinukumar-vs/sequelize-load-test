@@ -1,0 +1,5 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Raw - Get Trip,5,14,2,61,23.11,100.000%,6.21118,1.60,0.79,263.0
+Sequelize - Get Trip,5,4,2,6,1.33,100.000%,6.66667,1.71,0.89,263.0
+Debug Sampler,5,0,0,1,0.40,0.000%,6.70241,2.29,0.00,350.0
+TOTAL,15,6,0,61,14.72,66.667%,18.47291,5.27,1.61,292.0
