@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/vinukumar-vs/sequelize-load-test/issues"
   },
-  "homepage": "https://github.com/vinukumar-vs/sequelize-load-test#readme"
+  "homepage": "https://github.com/vinukumar-vs/sequelize-load-test#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^9.8.0"
+  }
 }
