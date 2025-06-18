@@ -1,0 +1,50 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 10000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 189.32769999999906,
+    "medianResTime" : 111.0,
+    "minResTime" : 5.0,
+    "maxResTime" : 548.0,
+    "pct1ResTime" : 422.0,
+    "pct2ResTime" : 446.0,
+    "pct3ResTime" : 547.0,
+    "throughput" : 2051.702913418137,
+    "receivedKBytesPerSec" : 901.6272568732048,
+    "sentKBytesPerSec" : 272.4917931883463
+  },
+  "Raw - Get Trip" : {
+    "transaction" : "Raw - Get Trip",
+    "sampleCount" : 5000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 18.21320000000002,
+    "medianResTime" : 10.0,
+    "minResTime" : 5.0,
+    "maxResTime" : 202.0,
+    "pct1ResTime" : 36.0,
+    "pct2ResTime" : 51.0,
+    "pct3ResTime" : 151.98999999999978,
+    "throughput" : 1033.27133705311,
+    "receivedKBytesPerSec" : 454.0743180409175,
+    "sentKBytesPerSec" : 134.2041873320934
+  },
+  "Sequelize - Get Trip" : {
+    "transaction" : "Sequelize - Get Trip",
+    "sampleCount" : 5000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 360.44219999999973,
+    "medianResTime" : 397.0,
+    "minResTime" : 35.0,
+    "maxResTime" : 548.0,
+    "pct1ResTime" : 446.0,
+    "pct2ResTime" : 538.0,
+    "pct3ResTime" : 547.0,
+    "throughput" : 1055.297593921486,
+    "receivedKBytesPerSec" : 463.75382545377795,
+    "sentKBytesPerSec" : 143.24840386238918
+  }
+}
