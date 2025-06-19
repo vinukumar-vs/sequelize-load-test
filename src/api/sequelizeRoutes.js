@@ -5,7 +5,6 @@ const { Trip, Customer, Driver, Vehicle } = require('../models');
 router.post('/trip', async (req, res) => {
   try {
     const { customer_id, driver_id, vehicle_id, start_time, end_time } = req.body;
-    // console.log('Received trip data:', req.body);
     // Validate required fields
     // If any of these fields are undefined or empty, return a 400 error
     if (
@@ -45,5 +44,41 @@ router.get('/trip/:id', async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+
+
+router.get('/customer/:id', async (req, res) => {
+  try {
+    const customer = await Customer.findByPk(req.params.id);
+    if (!customer) return res.status(404).json({ error: 'Not found' });
+    res.json(customer);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+router.post('/customer', async (req, res) => {
+  try {
+    // Accept only the 'name' property from req.body
+    const { name } = req.body;
+
+    // Basic validation for required field
+    const trimmedName = typeof name === 'string' ? name.trim() : '';
+
+    if (!trimmedName) {
+      return res.status(400).json({ error: 'Missing required field: name' });
+    }
+
+    // Create customer with only the 'name' property
+    const customer = await Customer.create({
+      name: trimmedName
+    });
+
+    res.status(201).json(customer);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+
 
 module.exports = router;
